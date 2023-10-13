@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Asteroid.png" />
+    <None Remove="Assets\backgroun2.jpg" />
+    <None Remove="Assets\Background.png" />
+    <None Remove="Assets\background1.jpg" />
+    <None Remove="Assets\background2.jpg" />
+    <None Remove="Assets\Circle.png" />
+    <None Remove="Assets\Laser.png" />
+    <None Remove="Assets\Saw.png" />
+    <None Remove="Assets\White.png" />
+    <None Remove="Background.jpg" />
+    <None Remove="S.png" />
+    <None Remove="SeamlessBackground.jpg" />
+    <None Remove="Ship.png" />
+    <None Remove="Вариант.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Asteroid.png" />
+    <EmbeddedResource Include="Assets\Background.png" />
+    <EmbeddedResource Include="Assets\Circle.png" />
+    <EmbeddedResource Include="Assets\Laser.png" />
+    <EmbeddedResource Include="Assets\Saw.png" />
+    <EmbeddedResource Include="Assets\Ship.png" />
+    <Resource Include="Assets\MenuShip.png" />
+    <EmbeddedResource Include="Assets\White.png" />
+    <EmbeddedResource Include="Assets\AddHP.png" />
+    <EmbeddedResource Include="Assets\AddDamage.png" />
+    <EmbeddedResource Include="Assets\AddLazer.png" />
+    <EmbeddedResource Include="Assets\Bomb.png" />
+    <EmbeddedResource Include="Assets\Shield.png" />
+    <EmbeddedResource Include="Assets\ChainsawShield.png" />
+  </ItemGroup>
+
+</Project>
